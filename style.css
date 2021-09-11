@@ -6,6 +6,11 @@ Author:       Alooka
 Template:     storefront
 */
 
+/* Fixed form controls color */
+input, select, textarea {
+  accent-color: #96588a;
+}
+
 @media (min-width: 830px) {
   /* Forces the navbar to be full width */
   .woocommerce-active .site-header .main-navigation {
@@ -97,3 +102,28 @@ Template:     storefront
   background-color: #333;
   border-left-color: rgba(255, 255, 255, .15);
 }
+
+/* Fixed search form in homepage */
+.site-search .widget_product_search form::before {
+	left: auto;
+	right: 1.15em;
+}
+
+.site-search .widget_product_search input[type="search"] {
+  border-radius: 46px;
+	opacity: 0;
+	padding: 1em 1.41575em !important;
+	padding-right: 2.617924em !important;
+	transition: opacity .15s ease-in-out;
+}
+
+.site-search .widget_product_search input[type="search"]:focus,
+.site-search .widget_product_search:hover input[type="search"] {
+	opacity: 1;
+}
+
+.site-search .widget_product_search input[type="search"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #96588a;
+}
+/* End: Fixed search form in homepage */
