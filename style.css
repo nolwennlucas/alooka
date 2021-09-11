@@ -26,7 +26,7 @@ input, select, textarea {
 
 /* Removes the price from the basket */
 .site-header-cart .cart-contents .amount {
-	display: none;
+  display: none;
 }
 
 .site-footer a { 
@@ -44,51 +44,51 @@ input, select, textarea {
 
 
 .page-template-template-homepage .entry-content, .page-template-template-homepage .entry-header {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* Fixes the subscribe form in the homepage */
 @media (max-width: 929px) {
-	.entry-content .wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form {
-		flex-direction: column;
-	}
-	
-	.entry-content .jetpack_subscription_widget #subscribe-email,
-	.entry-content .jetpack_subscription_widget #subscribe-submit {
-		width: 100%;
-	}
+  .entry-content .wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form {
+    flex-direction: column;
+  }
+  
+  .entry-content .jetpack_subscription_widget #subscribe-email,
+  .entry-content .jetpack_subscription_widget #subscribe-submit {
+    width: 100%;
+  }
 
-	.entry-content .jetpack_subscription_widget #subscribe-email {
-		margin-bottom: 4px !important;
-	}
-	
-	.entry-content .jetpack_subscription_widget #subscribe-submit button[type="submit"] {
-		display: block;
-		margin-left: 0 !important;
-		width: 100%;
-	}
+  .entry-content .jetpack_subscription_widget #subscribe-email {
+    margin-bottom: 4px !important;
+  }
+  
+  .entry-content .jetpack_subscription_widget #subscribe-submit button[type="submit"] {
+    display: block;
+    margin-left: 0 !important;
+    width: 100%;
+  }
 }
 
 /* Fixes the subscribe form in the footer */
 @media (min-width: 768px) and (max-width: 1125px) {
-	.footer-widget-4 .wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form {
-		flex-direction: column;
-	}
-	
-	.footer-widget-4 .jetpack_subscription_widget #subscribe-email,
-	.footer-widget-4 .jetpack_subscription_widget #subscribe-submit {
-		width: 100%;
-	}
+  .footer-widget-4 .wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form {
+    flex-direction: column;
+  }
+  
+  .footer-widget-4 .jetpack_subscription_widget #subscribe-email,
+  .footer-widget-4 .jetpack_subscription_widget #subscribe-submit {
+    width: 100%;
+  }
 
-	.footer-widget-4 .jetpack_subscription_widget #subscribe-email {
-		margin-bottom: 4px !important;
-	}
-	
-	.footer-widget-4 .jetpack_subscription_widget #subscribe-submit button[type="submit"] {
-		display: block;
-		margin-left: 0 !important;
-		width: 100%;
-	}
+  .footer-widget-4 .jetpack_subscription_widget #subscribe-email {
+    margin-bottom: 4px !important;
+  }
+  
+  .footer-widget-4 .jetpack_subscription_widget #subscribe-submit button[type="submit"] {
+    display: block;
+    margin-left: 0 !important;
+    width: 100%;
+  }
 }
 
 /* Resets the padding in the input */
@@ -105,21 +105,21 @@ input, select, textarea {
 
 /* Fixed search form in homepage */
 .site-search .widget_product_search form::before {
-	left: auto;
-	right: 1.15em;
+  left: auto;
+  right: 1.15em;
 }
 
 .site-search .widget_product_search input[type="search"] {
   border-radius: 46px;
-	opacity: 0;
-	padding: 1em 1.41575em !important;
-	padding-right: 2.617924em !important;
-	transition: opacity .15s ease-in-out;
+  opacity: 0;
+  padding: 1em 1.41575em !important;
+  padding-right: 2.617924em !important;
+  transition: opacity .15s ease-in-out;
 }
 
 .site-search .widget_product_search input[type="search"]:focus,
 .site-search .widget_product_search:hover input[type="search"] {
-	opacity: 1;
+  opacity: 1;
 }
 
 .site-search .widget_product_search input[type="search"]:focus {
