@@ -86,6 +86,7 @@ Template:     storefront
 	}
 }
 
+/* Resets the padding in the input */
 .jetpack_subscription_widget #subscribe-email input {
   padding: 15px 23px 15px 23px !important;
 }
