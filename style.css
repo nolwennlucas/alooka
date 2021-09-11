@@ -19,7 +19,6 @@ Template:     storefront
   }
 }
 
-
 /* Removes the price from the basket */
 .site-header-cart .cart-contents .amount {
 	display: none;
@@ -36,4 +35,57 @@ Template:     storefront
 /* Removes the border bottom in the footer as we removed the credit */
 .footer-widgets {
   border-bottom: none;
+}
+
+
+.page-template-template-homepage .entry-content, .page-template-template-homepage .entry-header {
+	max-width: 100%;
+}
+
+/* Fixes the subscribe form in the homepage */
+@media (max-width: 929px) {
+	.entry-content .wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form {
+		flex-direction: column;
+	}
+	
+	.entry-content .jetpack_subscription_widget #subscribe-email,
+	.entry-content .jetpack_subscription_widget #subscribe-submit {
+		width: 100%;
+	}
+
+	.entry-content .jetpack_subscription_widget #subscribe-email {
+		margin-bottom: 4px !important;
+	}
+	
+	.entry-content .jetpack_subscription_widget #subscribe-submit button[type="submit"] {
+		display: block;
+		margin-left: 0 !important;
+		width: 100%;
+	}
+}
+
+/* Fixes the subscribe form in the footer */
+@media (min-width: 768px) and (max-width: 1125px) {
+	.footer-widget-4 .wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form {
+		flex-direction: column;
+	}
+	
+	.footer-widget-4 .jetpack_subscription_widget #subscribe-email,
+	.footer-widget-4 .jetpack_subscription_widget #subscribe-submit {
+		width: 100%;
+	}
+
+	.footer-widget-4 .jetpack_subscription_widget #subscribe-email {
+		margin-bottom: 4px !important;
+	}
+	
+	.footer-widget-4 .jetpack_subscription_widget #subscribe-submit button[type="submit"] {
+		display: block;
+		margin-left: 0 !important;
+		width: 100%;
+	}
+}
+
+.jetpack_subscription_widget #subscribe-email input {
+  padding: 15px 23px 15px 23px !important;
 }
