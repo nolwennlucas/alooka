@@ -90,3 +90,10 @@ Template:     storefront
 .jetpack_subscription_widget #subscribe-email input {
   padding: 15px 23px 15px 23px !important;
 }
+
+/* Fixes the success and info alert messages */
+.woocommerce-message,
+.woocommerce-info {
+  background-color: #333;
+  border-left-color: rgba(255, 255, 255, .15);
+}
