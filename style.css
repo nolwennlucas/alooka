@@ -6,7 +6,15 @@ Author:       Alooka
 Template:     storefront
 */
 
+.site-footer a { 
+  text-decoration: none;
+}
+  
+.site-footer a:hover {
+  text-decoration: underline;
+}
+  
 /* Removes the border bottom in the footer as we removed the credit */
 .footer-widgets {
-	border-bottom: none;
+  border-bottom: none;
 }
