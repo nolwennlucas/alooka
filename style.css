@@ -11,6 +11,11 @@ input, select, textarea {
   accent-color: #96588a;
 }
 
+/* Hides title */
+.hentry .entry-header {
+  display: none;
+}
+
 @media (min-width: 830px) {
   /* Forces the navbar to be full width */
   .woocommerce-active .site-header .main-navigation {
