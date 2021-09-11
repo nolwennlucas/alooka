@@ -6,6 +6,11 @@ Author:       Alooka
 Template:     storefront
 */
 
+/* Removes the price from the basket */
+.site-header-cart .cart-contents .amount {
+	display: none;
+}
+
 .site-footer a { 
   text-decoration: none;
 }
