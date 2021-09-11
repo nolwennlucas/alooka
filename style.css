@@ -6,6 +6,20 @@ Author:       Alooka
 Template:     storefront
 */
 
+@media (min-width: 830px) {
+  /* Forces the navbar to be full width */
+  .woocommerce-active .site-header .main-navigation {
+    width: 78%;
+    margin: 0;
+  }
+
+  /*  Put the "Mon Compte" link on the right side */
+  .main-navigation ul li:last-child {
+    float: right;
+  }
+}
+
+
 /* Removes the price from the basket */
 .site-header-cart .cart-contents .amount {
 	display: none;
