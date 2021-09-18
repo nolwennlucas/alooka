@@ -6,6 +6,20 @@ Author:       Alooka
 Template:     storefront
 */
 
+/* font-family: 'Nympha', serif; */
+@font-face {
+  font-family: 'Nympha';
+  src: url('/assets/fonts/Nympha-Regular.eot');
+  src: url('/assets/fonts/Nympha-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Nympha-Regular.woff2') format('woff2'),
+      url('/assets/fonts/Nympha-Regular.woff') format('woff'),
+      url('/assets/fonts/Nympha-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* Fixed form controls color */
 input, select, textarea {
   accent-color: #96588a;
