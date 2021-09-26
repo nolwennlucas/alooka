@@ -41,7 +41,7 @@ h2 {
 }
 /* endblock */
   
-/* Put the "Mon compte link to the right "*/
+/* Put the "Mon compte" link to the right */
 .eltdf-page-header .eltdf-vertical-align-containers {
   display: flex;
 }
@@ -85,5 +85,15 @@ h2 {
   .eltdf-logo-wrapper {
     display: none !important;	
   }
+}
+/* endblock */
+
+/* Fix the footer color */
+/**
+ * This code actually has to be added to the additional CSS page to be the last one loaded and override the CSS from the parent and child
+ */
+.eltdf-page-footer .widget .eltdf-widget-title,
+.eltdf-page-footer .widget a {
+  color: #000 !important;
 }
 /* endblock */
