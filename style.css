@@ -1,9 +1,9 @@
 /*
 Theme Name: Onea Child
 Theme URI: http://onea.qodeinteractive.com
-Description: A child theme of Onea Theme
-Author: Elated Themes
-Author URI: http://themeforest.net/user/elated-themes
+Description: A child theme of Onea Theme made especially for Alooka
+Author: Alooka
+Author URI: http://alooka.fr
 Version: 1.0.1
 Text Domain: onea
 Template: onea
@@ -68,5 +68,9 @@ Template: onea
 		display: none !important;	
 	}
 }
-
 /* endblock */
+
+h1,
+h2 {
+  font-family: 'Nympha', 'Abril Fatface', serif;
+}
