@@ -57,7 +57,7 @@ Template: onea
   }
   
   .eltdf-vertical-align-containers .eltdf-position-center:before, .eltdf-vertical-align-containers .eltdf-position-left:before, .eltdf-vertical-align-containers .eltdf-position-right:before {
-    display: none;
+    display: none !important;	
   }
   
   .eltdf-logo-wrapper {
@@ -79,8 +79,8 @@ Template: onea
   }
   /* endblock */
   
-h1,
-h2 {
+  h1,
+  h2 {
   font-family: 'Nympha', 'Abril Fatface', serif !important;
   font-weight: 700;
   letter-spacing: 2px;
