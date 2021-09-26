@@ -11,75 +11,77 @@ Template: onea
 
 /* font-family: 'Nympha', serif; */
 @font-face {
-	font-family: 'Nympha';
-	src: url('/assets/fonts/Nympha-Regular.eot');
-	src: url('/assets/fonts/Nympha-Regular.eot?#iefix') format('embedded-opentype'),
-		url('/assets/fonts/Nympha-Regular.woff2') format('woff2'),
-		url('/assets/fonts/Nympha-Regular.woff') format('woff'),
-		url('/assets/fonts/Nympha-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Nympha';
+  src: url('assets/fonts/Nympha-Regular.eot');
+  src: url('assets/fonts/Nympha-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Nympha-Regular.woff2') format('woff2'),
+    url('assets/fonts/Nympha-Regular.woff') format('woff'),
+    url('assets/fonts/Nympha-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   }
   
   /* Removes the price in the basket */
   .eltdf-cart-quantity::after {
-	  content: "" !important;
+    content: "" !important;
   }
   
   .eltdf-cart-total-amount {
-	display: none !important;
+  display: none !important;
   }
   /* endblock */
   
   /* Put the "Mon compte link to the right "*/
   .eltdf-page-header .eltdf-vertical-align-containers {
-	  display: flex;
+    display: flex;
   }
   
   .eltdf-vertical-align-containers .eltdf-position-left {
-	  flex: 1 1 auto;
+    flex: 1 1 auto;
   }
   
   .eltdf-vertical-align-containers .eltdf-position-right {
-	  flex: 0 0 auto;
+    flex: 0 0 auto;
   }
   
   .eltdf-header-standard .eltdf-menu-area.eltdf-menu-left .eltdf-vertical-align-containers .eltdf-position-left-inner,
   .eltdf-sticky-header .eltdf-sticky-holder.eltdf-menu-left .eltdf-vertical-align-containers .eltdf-position-left-inner {
-	  align-items: center;
-	  display: flex;
-	  width: 100%;
+    align-items: center;
+    display: flex;
+    width: 100%;
   }
   
   .eltdf-sticky-header .eltdf-sticky-holder.eltdf-menu-left .eltdf-main-menu {
-	  width: 100%
+    width: 100%
   }
   
   .eltdf-vertical-align-containers .eltdf-position-center:before, .eltdf-vertical-align-containers .eltdf-position-left:before, .eltdf-vertical-align-containers .eltdf-position-right:before {
-	  display: none;
+    display: none;
   }
   
   .eltdf-logo-wrapper {
-	  flex: 0 0 auto;
+    flex: 0 0 auto;
   }
   
   .eltdf-header-standard .eltdf-menu-area.eltdf-menu-left .eltdf-main-menu {
-	  flex: 1 1 auto;
+    flex: 1 1 auto;
   }
   
   .eltdf-main-menu>ul>li:last-child {
-	  float: right;
+    float: right;
   }
   
   @media only screen and (min-width: 1025px) and (max-width: 1180px) {
-	  .eltdf-logo-wrapper {
-		  display: none !important;	
-	  }
+    .eltdf-logo-wrapper {
+      display: none !important;	
+    }
   }
   /* endblock */
   
-  h1,
-  h2 {
-	font-family: 'Nympha', 'Abril Fatface', serif !important;
+h1,
+h2 {
+  font-family: 'Nympha', 'Abril Fatface', serif !important;
+  font-weight: 700;
+  letter-spacing: 2px;
   }
