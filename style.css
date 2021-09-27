@@ -62,7 +62,7 @@ h2 {
 }
   
 .eltdf-sticky-header .eltdf-sticky-holder.eltdf-menu-left .eltdf-main-menu {
-  width: 100%
+  width: 100% !important;
 }
   
 .eltdf-vertical-align-containers .eltdf-position-center:before, .eltdf-vertical-align-containers .eltdf-position-left:before, .eltdf-vertical-align-containers .eltdf-position-right:before {
