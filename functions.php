@@ -13,3 +13,11 @@ function my_theme_enqueue_styles() {
         $theme->get('Version') // this only works if you have Version in the style header
     );
 }
+
+add_filter( 'woocommerce_product_tabs', 'wpm_remove_product_tabs', 98 );
+function wpm_remove_product_tabs( $tabs ) {
+	// Supprime le bloc "Information complémentaires"
+    unset($tabs['additional_information']);
+
+    return $tabs;
+}
