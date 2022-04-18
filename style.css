@@ -22,7 +22,7 @@ Template: onea
   font-style: normal;
   font-display: swap;
 }
-  
+
 h1,
 h2 {
   font-family: 'Nympha', 'Abril Fatface', serif !important;
@@ -30,61 +30,68 @@ h2 {
   letter-spacing: 2px;
 }
 /* endblock */
-  
+
 /* Removes the price in the basket */
 .eltdf-cart-quantity::after {
   content: "" !important;
 }
-  
+
 .eltdf-cart-total-amount {
   display: none !important;
 }
 /* endblock */
-  
+
 /* Put the "Mon compte" link to the right */
 .eltdf-page-header .eltdf-vertical-align-containers {
   display: flex;
 }
-  
+
 .eltdf-vertical-align-containers .eltdf-position-left {
   flex: 1 1 auto;
 }
-  
+
 .eltdf-vertical-align-containers .eltdf-position-right {
   flex: 0 0 auto;
 }
-  
+
 .eltdf-header-standard .eltdf-menu-area.eltdf-menu-left .eltdf-vertical-align-containers .eltdf-position-left-inner,
 .eltdf-sticky-header .eltdf-sticky-holder.eltdf-menu-left .eltdf-vertical-align-containers .eltdf-position-left-inner {
   align-items: center;
   display: flex;
   width: 100%;
 }
-  
+
 .eltdf-sticky-header .eltdf-sticky-holder.eltdf-menu-left .eltdf-main-menu {
   width: 100% !important;
 }
-  
+
 .eltdf-vertical-align-containers .eltdf-position-center:before, .eltdf-vertical-align-containers .eltdf-position-left:before, .eltdf-vertical-align-containers .eltdf-position-right:before {
-  display: none !important;	
+  display: none !important;
 }
-  
+
 .eltdf-logo-wrapper {
   flex: 0 0 auto;
 }
-  
+
 .eltdf-header-standard .eltdf-menu-area.eltdf-menu-left .eltdf-main-menu {
   flex: 1 1 auto;
 }
-  
+
 .eltdf-main-menu>ul>li:last-child {
   float: right;
 }
-  
+
 @media only screen and (min-width: 1025px) and (max-width: 1180px) {
   .eltdf-logo-wrapper {
-    display: none !important;	
+    display: none !important;
   }
+}
+/* endblock */
+
+
+/* Hides the "Prevent this Pop-up" checkbox in the newsletter modal */
+.eltdf-sp-prevent {
+  display: none;
 }
 /* endblock */
 
